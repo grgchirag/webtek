@@ -1,0 +1,239 @@
+*{
+  margin:0px ;
+  padding:0px ;
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+
+body {
+  /* overflow: hidden; */
+}
+
+.pip{
+
+  font-size: 19px;
+  font-weight: 600;
+  margin: 5px;
+}
+
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: white;
+  color: black;
+  font-size: 19px;
+  font-weight: 600;
+  margin: 10px;
+  font-size: 19px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(139, 230, 48, 0.892);
+  
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 12;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+color:rgba(139, 230, 48, 0.892);
+}
+
+
+/* #arrow {
+    width: 40px;
+    height: 40px;
+    background: red;
+    position: absolute;
+    top: 93%;
+    left: 45%;
+    font-size: 20px ;
+    border-radius: 50%;
+} */
+
+#love {
+    position: relative;
+    background: rgba(139, 230, 48, 0.992);
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+
+#fill {
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    background: rgba(139, 230, 48, 0.792);
+    top: 0;
+    z-index: 10;
+    opacity: 0;
+    transition: .5s all ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    font-family: San Sarif;
+    font-size: 30px;
+    
+}
+
+#loveimg {
+    transition: .5s all ease-in-out;
+}
+
+
+
+#love:hover #fill {
+    height: 100%;
+    opacity: 1;
+    border-radius: 50%;
+}
+
+#love:hover #loveimg {
+    border-radius: 50%;
+    transform: scale(1.2);
+}
+
+.item{
+    position: relative;
+}
+
+#fill2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: rgba(139, 230, 48, 0.792);
+    z-index: 10;
+    transition: .5s all ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+#fill2icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fill2icon  p {
+
+margin: 0px 5px  40px 5px;
+font-size: 25px;
+color: whitesmoke;
+    
+}
+
+.item:hover #fill2 {
+    top: 0;
+}
+
+/* @media(max-width:750px){
+
+  .a1{
+
+     grid-template-columns: 1fr 1fr; 
+  }
+} */
+
+/* @media(max-width:550px){
+
+  .a1{
+
+     grid-template-columns:  1fr; 
+  }
+} */
+
+.aa{
+  
+  text-align: center;
+
+}
+
+.aaa{
+ width: 40px;
+ height: 2px;
+ background: rgba(139, 230, 48, 0.892);
+  margin-top: 4px;
+  transition: .3s all linear;
+  margin: 4px auto;
+}
+
+.aa:hover .aaa{
+  width: 20px;
+}
+
+.bbb{
+   width: 20px;
+   height: 2px;
+   background: rgba(139, 230, 48, 0.892);
+   margin-top: 4px;
+   transition: .3s all linear;
+   margin: 4px auto;
+}
+
+.aa:hover  .bbb{
+  
+width: 40px;
+  
+  
+}
+
+.ccc{
+  border-bottom: 5px solid rgba(139, 230, 48, 0.892);
+}
+
+
+
+.pp{
+
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.pp:hover{
+
+  color:rgba(139, 230, 48, 0.892) ;
+  transition-duration: 1s;
+}
+
+.ppp{
+  margin-bottom: 190px;
+}
+
+.ppp:hover{
+  color:rgba(139, 230, 48, 0.892) ;
+}
+
+
